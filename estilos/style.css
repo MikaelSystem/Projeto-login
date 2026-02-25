@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgb(158, 158, 158), rgb(80, 80, 80), rgb(0, 0, 0));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    padding: 0px 0px 10px 0px;
+    text-align: center;
+    margin: auto;
+    
+    background-color: white;
+}
+
+main>article>img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    transform: translate();
+}
+
+div.intro {
+    padding: 10px;
+}
+
+#imail, #ipw {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(216, 202, 0);
+    color: white;
+    padding: 8px;
+}
+
+#entrar {
+    width: 265px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #bdbdbd;
+}
+
+#entrar:hover {
+    background-color: #b3b3b383;
+}
+
+#esenha {
+    width: 265px;
+    height: 40px;
+    margin-top: 5px;
+    background-color: white;
+}
+
+#esenha:hover {
+    background-color: rgba(128, 128, 128, 0.342);
+}
