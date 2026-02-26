@@ -3,29 +3,40 @@
 @media screen and (max-width: 320px){
 
     main {
-        transform: translate(-50%, 5%);
-        width: 100vw;   
+        transform: translate(-50%);
+        width: 100vw;
+        height: 590px;   
     }
 
     main>article>img {
-        width: 100vw;    
+        width: 95vw; 
+        height: 90vw;
+        margin-top: 5px;   
+    }
+
+    #entrar, #esenha {
+        width: 95vw;
+        height: 17vw;
     }
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
 
     main {
-        transform: translate(-50%, 25%);
+        transform: translate(-50%, -3%);
         width: 66vw;
         height: 657px;
         min-width: 310px;
+        max-width: 321px;
         margin-top: 30px;
         margin-bottom: 100px;
     }
 
     
     main>article>img {
-        width: 310px;
+        width: 66vw;
+        min-width: 310px;
+        max-width: 320px;
         height: 300px;
     }
 
