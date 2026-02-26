@@ -18,6 +18,9 @@ main {
     border-radius: 10px;
     font-size: 1.2em;
     padding: 0px 0px 10px 0px;
+    transform: translate(-50%, 25%);
+    left: 50%;
+    position: absolute;
     text-align: center;
     margin: auto;
     
@@ -28,7 +31,6 @@ main>article>img {
     width: 300px;
     height: 300px;
     border-radius: 10px;
-    transform: translate();
 }
 
 div.intro {
