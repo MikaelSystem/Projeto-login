@@ -3,7 +3,7 @@
 @media screen and (max-width: 320px){
 
     main {
-        transform: translate(-50%, -6.89%);
+        transform: translate(-50%, 5%);
         width: 100vw;   
     }
 
@@ -15,14 +15,17 @@
 @media screen and (min-width: 321px) and (max-width: 768px) {
 
     main {
-        transform: translate(-50%, 0%);
-        width: 350px;
+        transform: translate(-50%, 25%);
+        width: 66vw;
         height: 657px;
+        min-width: 310px;
+        margin-top: 30px;
+        margin-bottom: 100px;
     }
 
     
     main>article>img {
-        width: 350px;
+        width: 310px;
         height: 300px;
     }
 

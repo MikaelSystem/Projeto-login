@@ -13,8 +13,8 @@ body {
 }
 
 main {
-    width: 300px;
-    height: 600px;
+    width: 60vw;
+    height: 60vw;
     border-radius: 10px;
     font-size: 1.2em;
     padding: 0px 0px 10px 0px;
@@ -38,16 +38,18 @@ div.intro {
 }
 
 #imail, #ipw {
-    background-color: rgb(0, 0, 0);
-    border: 1px solid rgb(216, 202, 0);
+    background-color: rgba(4, 53, 68, 0.274);
+    border: 1.5px solid rgb(0, 0, 0);
     color: white;
     padding: 8px;
+    border-radius: 50px;
 }
 
 #entrar {
     width: 265px;
     height: 40px;
     margin-top: 10px;
+    border-radius: 5px;
     background-color: #bdbdbd;
 }
 
@@ -59,6 +61,7 @@ div.intro {
     width: 265px;
     height: 40px;
     margin-top: 5px;
+    border-radius: 5px;
     background-color: white;
 }
 
