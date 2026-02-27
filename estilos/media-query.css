@@ -20,8 +20,15 @@
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
 
-    main {width: 310px;}
-    main>article>img{width:310px;}
+    main {
+        width: 310px;
+            border: 2px groove black;
+        }
+
+    main>article>img{
+        width:310px;
+            border-radius: 8.2px;
+    }
 
         #imail, #ipw {
             width: 275px;
