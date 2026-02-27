@@ -13,10 +13,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgb(158, 158, 158), rgb(80, 80, 80), rgb(0, 0, 0));
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    
+   background-color: rgb(117, 112, 106);
 }
 
 main {
@@ -94,3 +91,5 @@ div.intro {
         background-color: rgba(128, 128, 128, 0.342);
         box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.329);
     }
+
+    
