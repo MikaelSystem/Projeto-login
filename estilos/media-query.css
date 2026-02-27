@@ -1,41 +1,24 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 320px){
-
-    main {
-        transform: translate(-50%);
-        width: 100vw;
-        height: 590px;   
-    }
-
-    main>article>img {
-        width: 95vw; 
-        height: 90vw;
-        margin-top: 5px;   
-    }
-
-    #entrar, #esenha {
-        width: 95vw;
-        height: 17vw;
-    }
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
 
     main {
-        transform: translate(-50%, -3%);
         width: 66vw;
         height: 680px;
+
         min-width: 310px;
         max-width: 321px;
-        margin-top: 30px;
-        margin-bottom: 100px;
+
+        position: fixed;
     }
 
     main>article>img {
         width: 66vw;
         min-width: 310px;
-        max-width: 320px;
+        max-width: 321px;
         height: 300px;
     }
 
@@ -61,14 +44,14 @@
 @media screen and (min-width: 769px) and (max-width: 1200px){
 
     main {
-        transform: translate(-50%, 50%);
+
+        position: absolute;
+        
         width: 90vw;
         height: 300px;
         min-width: 310px;
         max-width: 700px;
         
-        margin-top: 30px;
-        margin-bottom: 100px;
     }
 
     main>article>img {
@@ -86,18 +69,81 @@
         position: relative;
         width: 300px;
         top: -315px;
-        left: 260px;
+        left: 266px;
         font-size: 0.9em;
         padding: 10px;
         text-align: center;
-        outline: 2px solid red;
     }
 
     .menulogin {
-        transform: translate(47%, -145%);
-        outline: 2px solid red;
+        transform: translate(47%, -148%);
         padding: 10px;
         display: inline-block;
+        
+    }
+
+    #imail {
+        margin-bottom: 3px;
+        
+    }
+
+    #ipw {
+        margin-bottom: -1px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    main {
+        position: absolute;
+        width: 80vw;
+        max-width: 900px; /*Aqui tá correto por enquanto*/
+        height: 380px;
+        margin: 30px auto 100px auto;
+    }
+
+    main>article>img {
+        transform: translate();
+        right: 250px;
+        width: 66vw;
+        min-width: 310px;
+        max-width: 400px;
+        height: 390px;
+        position: relative;
+        
+    }
+
+    div.intro {
+        transform: translate(23%);
+        position: relative;
+        width: 340px;
+        top: -390px;
+        left: 385px;
+        font-size: 1.1em;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .menulogin {
+        transform: translate(54%, -145%);
+        padding: 10px;
+        display: inline-block;
+    }
+    
+    #imail, #ipw {
+
+        width: 300px;
+        height: 40px;
+    }
+
+    #imail {
+        margin-bottom: 5px;
+    }
+
+    #entrar, #esenha {
+        width: 350px;
+        height: 60px;
     }
 
 }
