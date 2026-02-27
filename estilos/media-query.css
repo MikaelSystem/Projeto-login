@@ -6,6 +6,7 @@
     }
 
     main>article>img {
+        display: none;
         width: 100%;
     }
 
@@ -22,12 +23,25 @@
 
     main {
         width: 310px;
+        height: auto;
             border: 2px groove black;
         }
 
     main>article>img{
+        transform: translate();
         width:310px;
             border-radius: 8.2px;
+    }
+
+        .intro {
+            font-size: 1em;
+            transform: translate(0, 260%);
+            position: absolute;
+        }
+
+        .menulogin {
+        margin-top: 120px;
+        display: inline-block;
     }
 
         #imail, #ipw {
@@ -44,13 +58,11 @@
             margin-top: 10px;
         }
 
-        .intro {
-            font-size: 0.9em;
-        }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1200px){
 
+    body {overflow-x: hidden;}
     main {   
         width: 735px;
         max-height: 300px;
@@ -66,18 +78,13 @@
     }
 
     div.intro {
-        transform: translate(23%);
-        position: relative;
+        transform: translate(112%, -5%);
+        position: absolute;
         width: 300px;
-        top: -315px;
-        left: 266px;
-        font-size: 0.9em;
-        padding: 10px;
-        text-align: center;
     }
 
     .menulogin {
-        transform: translate(47%, -148%);
+        transform: translate(47%, -99%);
         padding: 10px;
         display: inline-block;
     }
@@ -97,26 +104,20 @@
     }
 
     main>article>img {
+        transform: translate(-62.65%);
         width: 400px;
         min-height: 390px;
-        
-        margin-right: 500px;
         border-radius: 8px;
     }
 
-    main>div.intro {
-        position: relative;
-        transform: translate(23%);
-            bottom: 390px;
-            left: 385px;
-       
-        width: 340px;
-        font-size: 1.1em;
-        padding: 10px;
+    div.intro {
+        transform: translate(152.5%);
+        position: absolute;
+        width: 300px;
     }
 
     .menulogin {
-        transform: translate(54%, -145%);
+        transform: translate(54%, -100%);
         padding: 10px;
         display: inline-block;
     }
