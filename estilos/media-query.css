@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 320px){
+
     main { /*Tudo flexivel para pequenos dispositivos :) */
+        transform: translate(0%,0%);
         width: 100%;
     }
 
