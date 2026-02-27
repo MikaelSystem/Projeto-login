@@ -2,19 +2,19 @@
 
 @media screen and (max-width: 320px){
     main { /*Tudo flexivel para pequenos dispositivos :) */
-        width: 100vw;
+        width: 100%;
     }
 
     main>article>img {
-        width: 100vw;
+        width: 100%;
     }
 
     #imail, #ipw {
-        width: 90vw;
+        width: 90%;
     }
 
     #entrar, #esenha {
-        width: 90vw;
+        width: 90%;
     }
 }
 
@@ -50,8 +50,6 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1200px){
-
-    body {overflow-x: hidden;}
 
     main {   
         width: 735px;
