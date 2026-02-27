@@ -13,7 +13,10 @@
 }
 
 body {
-   background-color: rgb(117, 112, 106);
+   background-image: url(../imagens/pexels-skylar-kang-6044235.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
 }
 
 main {
@@ -90,5 +93,5 @@ div.intro {
         background-color: rgba(128, 128, 128, 0.342);
         box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.329);
     }
-
+ 
     
