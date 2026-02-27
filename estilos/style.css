@@ -10,7 +10,6 @@
     margin: 0px;
     padding: 0px;
     font-family: var(--fonte-Google);
-    outline: 1px solid rgba(255, 0, 0, 0.137);
 }
 
 body {
@@ -18,7 +17,7 @@ body {
 }
 
 main {
-    position: absolute;
+   
     transform: translate(-50%, 25%);
         left: 50%;
     text-align: center;
@@ -34,7 +33,6 @@ main {
 main>article>img {
     width: 300px;
     height: 300px;
-    border-radius: 10px;
 }
 
 div.intro {

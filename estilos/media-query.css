@@ -22,13 +22,13 @@
 @media screen and (min-width: 321px) and (max-width: 768px) {
 
     main {
+        transform: translate(0%, 0%);
         width: 310px;
         height: auto;
             border: 2px groove black;
         }
 
     main>article>img{
-        transform: translate();
         width:310px;
             border-radius: 8.2px;
     }
