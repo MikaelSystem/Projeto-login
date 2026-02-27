@@ -1,65 +1,78 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 320px){
+    main {
+        width: 100vw;
+    }
+
+    main>article>img {
+        width: 100vw;
+    }
+
+    #imail, #ipw {
+        width: 90vw;
+    }
+
+    #entrar, #esenha {
+        width: 90vw;
+    }
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
 
     main {
-        width: 66vw;
-        height: 680px;
+        width: 310px;
 
-        min-width: 310px;
-        max-width: 321px;
+        /*min-width: 310px;
+        max-width: 321px;*/
     }
 
     main>article>img {
-        width: 66vw;
-        min-width: 310px;
-        max-width: 321px;
-        height: 300px;
+        width: 310px;
     }
 
-    #imail, #ipw {
-        width: 275px;
-        height: 30px;
-    }
+            #imail, #ipw {
+                width: 275px;
+                height: 30px;
+            }
 
-    #entrar, #esenha {
-        width: 300px;
-        height: 50px;
-    }
+            #entrar, #esenha {
+                width: 300px;
+                height: 50px;
+            }
 
-    #entrar {
-        margin-top: 10px;
-    }
+            #entrar {
+                margin-top: 10px;
+            }
 
-    .intro {
-        font-size: 0.9em;
-    }
+            .intro {
+                font-size: 0.9em;
+            }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1200px){
 
-    main {
+    body {
+        overflow-x: hidden;
+    }
 
-        position: absolute;
-        
-        width: 90vw;
-        height: 300px;
+    main {   
+        width: 735px;
+        max-height: 300px;
+        border: 5px groove black;
+
+        /*
         min-width: 310px;
-        max-width: 700px;
+        max-width: 700px; */
         
     }
 
     main>article>img {
-        transform: translate();
-        right: 209px;
-        width: 66vw;
-        min-width: 310px;
-        max-width: 320px;
         height: 310px;
-        position: relative;
+        
+        margin-right: 500px;
+        border-radius: 5px;
+        
     }
 
     div.intro {
@@ -94,33 +107,29 @@
 @media screen and (min-width: 1200px) {
 
     main {
-        position: absolute;
-        width: 80vw;
-        max-width: 900px; /*Aqui tá correto por enquanto*/
-        height: 380px;
-        margin: 30px auto 100px auto;
+        width: 900px;
+        height: 380px; 
+        
+        border: 2px groove black;
     }
 
     main>article>img {
-        transform: translate();
-        right: 250px;
-        width: 66vw;
-        min-width: 310px;
-        max-width: 400px;
+        width: 400px;
         height: 390px;
-        position: relative;
         
+        margin-right: 500px;
+        border-radius: 8px;
     }
 
-    div.intro {
-        transform: translate(23%);
+    main>div.intro {
         position: relative;
+        transform: translate(23%);
+            bottom: 390px;
+            left: 385px;
+       
         width: 340px;
-        top: -390px;
-        left: 385px;
         font-size: 1.1em;
         padding: 10px;
-        text-align: center;
     }
 
     .menulogin {
@@ -130,18 +139,14 @@
     }
     
     #imail, #ipw {
-
         width: 300px;
         height: 40px;
     }
 
-    #imail {
-        margin-bottom: 5px;
-    }
+    #imail {margin-bottom: 5px;}
 
     #entrar, #esenha {
         width: 350px;
         height: 60px;
     }
-
 }
