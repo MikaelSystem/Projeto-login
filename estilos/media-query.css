@@ -42,8 +42,8 @@
         }
 
         .menulogin {
+        display: inline-block;   
         margin-top: 120px;
-        display: inline-block;
     }
 
         #imail, #ipw {
@@ -74,10 +74,8 @@
 
     main>article>img {
         height: 310px;
-        
-        margin-right: 500px;
-        border-radius: 5px;
-        
+            margin-right: 500px;
+            border-radius: 5px;
     }
 
     div.intro {
